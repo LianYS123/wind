@@ -1,0 +1,5 @@
+<view>
+  <view wx:for="{{list}}" wx:key="_id">
+    <van-card title="{{item.title}}" desc="{{item.content}}"></van-card>
+  </view>
+</view>

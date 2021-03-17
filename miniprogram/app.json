@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/discover/index",
+    "pages/my/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "哪里的风呢",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#0d141e",
+    "selectedColor": "#2493ee",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "文章",
+        "iconPath": "images/wenzhang.png",
+        "selectedIconPath": "images/wenzhang-active.png"
+      },
+      {
+        "pagePath": "pages/discover/index",
+        "text": "发现",
+        "iconPath": "images/faxian.png",
+        "selectedIconPath": "images/faxian-active.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我",
+        "iconPath": "images/wo.png",
+        "selectedIconPath": "images/wo-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+   "weui": true
+  }
+}
